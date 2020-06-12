@@ -37,7 +37,7 @@ nodejs是ECMAScript + nodejs API
 
 ```
 + 稳定性
-  + 使用PM2做进程守候，防止server挂掉
+  + 使用PM2做进程守候，防止server挂掉，开发时使用nodemon
 + 考虑内存和CPU
   + 使用stream写日志，redis存session
 + 日志记录
