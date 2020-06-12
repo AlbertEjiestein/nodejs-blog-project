@@ -8,4 +8,3 @@
 + 数据库使用 `MySQL`
 + 登录信息校验和存储使用`cookie` `session`和`redis`
 + 线上环境开发时使用的是`nodemon`，生产环境中使用`pm2`
-+ 
