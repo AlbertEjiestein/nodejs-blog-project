@@ -31,5 +31,6 @@ use myblog;
 
 -- delete from blogs where id = 6
 select * from users;
+-- update users set password='176a0ba1135613115a9924f7af1ccf4b' where username='zhangsan'
 
 -- select version()

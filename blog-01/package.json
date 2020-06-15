@@ -15,7 +15,9 @@
     "cross-env": "^7.0.2"
   },
   "dependencies": {
+    "crypto": "^1.0.1",
     "mysql": "^2.18.1",
-    "redis": "^3.0.2"
+    "redis": "^3.0.2",
+    "xss": "^1.0.7"
   }
 }

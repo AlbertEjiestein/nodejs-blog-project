@@ -5,9 +5,9 @@ const { set, get } = require('../db/redis')
 const handleUserRouter = (req, res) => {
   const method = req.method
 
-  if(method === 'POST' && req.path === '/api/user/login'){
-    const { username, password } = req.body
-    // const { username, password } = req.query
+  if(method === 'GET' && req.path === '/api/user/login'){
+    // const { username, password } = req.body
+    const { username, password } = req.query
     const result = login(username, password)
     return result.then(loginData => {
       if(loginData.username){
