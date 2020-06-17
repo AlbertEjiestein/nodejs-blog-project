@@ -30,7 +30,7 @@ use myblog;
 -- select * from blogs order by createtime desc;
 
 -- delete from blogs where id = 6
-select * from users;
--- update users set password='176a0ba1135613115a9924f7af1ccf4b' where username='zhangsan'
-
+-- select * from users;
+-- update users set password='95f0519e6b31de918193e64447d47e50' where username='lisi'
+SET SQL_SAFE_UPDATES = 0
 -- select version()
